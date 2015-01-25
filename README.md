@@ -1,1 +1,1 @@
-just some scripts and code
+just some script and code and config
