@@ -4,9 +4,9 @@ import time
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(12, GPIO.OUT)
+GPIO.setup(12, GPIO.OUT)   # set pin 12 as input
 
-servo = GPIO.PWM(12, 50)
+servo = GPIO.PWM(12, 50)   #
 servo.start(7.5)
 
 try:
